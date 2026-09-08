@@ -1,6 +1,5 @@
 import User from "../models/user.model.js";
 import uploadToCloudinary from "../config/cloudinary.js"
-import { error } from "console";
 export const getCurrentUser = async (req, res) => {
     try {
         let userId = req.userId;
