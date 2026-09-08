@@ -13,7 +13,7 @@ import { app, server } from "./socket/socket.io.js";
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://teatalk-forntend.onrender.com",
     credentials: true
 }))
 app.use(express.json());
